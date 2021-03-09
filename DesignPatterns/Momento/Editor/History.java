@@ -1,0 +1,23 @@
+package DesignPatterns.Momento.Editor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class History {
+
+    private final List<EditorState> states = new ArrayList<>();
+
+    public void push(EditorState state) {
+        states.add(state);
+    }
+
+    public EditorState pop() {
+        var lastIndex = states.size() - 1;
+        var lastState = states.get(lastIndex);
+
+        if (states.size() - 1 > 0)
+            states.remove(lastState);
+
+        return lastState;
+    }
+}
