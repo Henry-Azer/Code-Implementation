@@ -1,4 +1,6 @@
-package DataStructure.Linear;
+package DataStructures.Linear;
+
+import DataStructures.NonLinear.Heap;
 
 public class PriorityQueueWithHeap {
     private int capacity;

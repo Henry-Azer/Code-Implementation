@@ -1,4 +1,4 @@
-package DataStructure.Linear;
+package DataStructures.Linear;
 
 import java.util.NoSuchElementException;
 import java.util.Stack;

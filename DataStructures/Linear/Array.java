@@ -1,4 +1,4 @@
-package DataStructure.Linear;
+package DataStructures.Linear;
 
 public class Array {
     private int[] items;

@@ -1,4 +1,4 @@
-package DataStructure.NonLinear;
+package DataStructures.NonLinear;
 
 public class Heap {
     private final int[] items;

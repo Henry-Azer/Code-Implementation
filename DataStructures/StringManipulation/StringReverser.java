@@ -1,4 +1,4 @@
-package DataStructure.StringManipulation;
+package DataStructures.StringManipulation;
 
 import java.util.Stack;
 

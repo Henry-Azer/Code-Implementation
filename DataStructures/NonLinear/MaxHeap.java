@@ -1,4 +1,4 @@
-package DataStructure.NonLinear;
+package DataStructures.NonLinear;
 
 public class MaxHeap {
     public static int[] heapify(int[] array) {

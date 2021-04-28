@@ -1,7 +1,6 @@
-package DataStructure.NonLinear;
+package DataStructures.NonLinear;
 
 import java.util.*;
-import java.util.PriorityQueue;
 
 public class WeightedGraph {
 

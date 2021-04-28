@@ -1,4 +1,4 @@
-package DataStructure.NonLinear;
+package DataStructures.NonLinear;
 
 import java.util.ArrayList;
 
